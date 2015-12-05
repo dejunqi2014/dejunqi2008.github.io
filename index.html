@@ -1,105 +1,222 @@
 <!DOCTYPE html>
+<!-- saved from url=(0040)http://getbootstrap.com/examples/cover/# -->
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HTML5 Assignment</title>
-<link rel="stylesheet" type="text/css" href="css/demo.css">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Home</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">    
 </head>
+
 <body>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div id="navbar" >
-                    <ul class="nav navbar-nav">                  
-                        <li><a href="http://www.cityofchicago.org/city/en/about.html," class="link">About</a></li>
-						<li><a href="http://www.cityofchicago.org/city/en/svcs/find.html" class="link">Service</a></li>
-						<li><a href="#" class="link">Word Chicago</a></li>
-						<li><a href="http://www.cityofchicago.org/city/en/chicagogovt.html" class="link">Goverment</a></li>
-						<li><a href="http://www.cityofchicago.org/city/en/progs.html" class="link">Programs</a></li>			
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-	<div id="main_body" class="container">
-		<div class="container main_content">
-			<div class="row">
-				
-				<div class="col-xs-12 col-sm-7 left">
-					<a >A Full Service Digital Agency</a>
-				</div>
-				
-				<div class="col-xs-12 col-sm-5 right">
-					<ul id="link" >
-						<li><a href="#">Business</a></li>
-					  	<li><a href="#">Culture</a></li>
-					  	<li><a href="#">Environment</a></li>
-					  	<li><a href="#">Housing &amp; Development</a></li>
-					  	<li><a href="#">Social Service</a></li>
-					  	<li><a href="#">Civic Service</a></li>
-					  	<li><a href="#">Education</a></li>
-					  	<li><a href="#">Health</a></li>
-					</ul>				
-				</div>
-			
-			</div>			
-		</div>
-	</div>
-
-
-	
-
-	<div id="videos" class="container">		
-		<div class="row  row-content">
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/01.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio01.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/02.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio02.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/03.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio03.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>			
-		</div>		
-	
-		<div class="row   row-content">
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/03.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio03.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/03.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio03.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>
-			<div class="col-xs-12 col-sm-4">
-					<video class="video" controls="controls"
-					src="videos/03.mp4" width="100%" height="auto" muted="muted" poster = "images/vedio03.png"></video><br/><span>News: some text about what is hppening on the video...</span> 				
-			</div>			
-		</div>
-	</div>
-
-
-	<div class="row-footer">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
-            <div class="col-xs-12">
-                <p style="padding:10px;"></p>
-                <p align="center">© Copyright 2015 City of Chicago</p>
-            </div>
-        </div>        
-	</div>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 
-<script type="text/javascript" src="js/demo.js"></script>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav"> 				
+					<li class="active">
+						<a href="index.html">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
+						</a>
+					</li>
+					<li><a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>		
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+						aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 
+								My Works<span class="caret"></span></a> 
+						<ul class="dropdown-menu">
+							<li><a href="#">Web Development</a></li>
+							<li><a href="#">Data Mining &amp; Machine Learning</a></li>
+							<li><a href="#">OO Software Development</a></li>
+						</ul>
+						</li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> Contact</a></li>
+				</ul>		
+			</div> <!--end of navbar div-->
+		</div> <!--end of container div-->
+	</nav>
+				
+
+
+	<div class="container">
+		
+
+
+
+		<div class="row row-content"> 
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div class="media">
+					<div class="media-left media-middle">
+						<a href="about.html">
+							<img class="media-object img-thumbnail" src="img/profile.png" width="120" alt="Profile">
+						</a>
+					</div>
+					<div class="media-body">
+						<h2 class="=media-heading"><i>About me</i></h2>
+						 <p>I am currently a master studuent in Computer Science. My concentration focus on Software 
+						 development and Data Mining, you are welcome to take a look at my work in more detail.</p>
+						<p><a class="btn btn-primary btn-xs" href="about.html">More &raquo;</a></p>
+					</div>
+				</div> <!-- end of  the media -->
+			</div>
+		</div>
+
+		<div class="row row-content"> 
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div class="media">
+					<div class="media-left media-middle">
+						<a href="#">
+							<img class="media-object img-thumbnail" src="img/cs.jpg" width="120" alt="Profession">
+						</a>
+					</div>
+					<div class="media-body">
+						<h2 class="=media-heading">Profession</h2>
+						 <p>My concentrations of study are two areas: software development and data mining. 
+						 Currently I am working on two projects: 
+						 <ol>
+						 	<li>Building apps and web services using Goolgle 
+						 	Maps API and interface with Octocopers, Environmental
+						  	Sensors, and Personal Health Monitors</li>
+						  	<li>Automic Summarization of Privacy Policies using Ensemble Learning</li>
+						 </ol>
+						 </p>
+						<p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+					</div>
+				</div> <!-- end of  the media -->
+			</div>
+		</div>
+
+		<div class="row row-content"> 
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div class="media">
+					<div class="media-left media-middle">
+						<a href="#">
+							<img class="media-object img-thumbnail" src="img/physics.jpg" width="120" alt="Physics">
+						</a>
+					</div>
+					<div class="media-body">
+						<h2 class="=media-heading">Physics</h2>
+						 <p>I used to be a physicsit, my research focuses on studing graphene's 
+						 eletronic and mechinical properties using atomic-scale imagining techiniuqe. </p>
+						<p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
+					</div>
+				</div> <!-- end of  the media -->
+			</div>
+		</div>
+
+		<div class="row row-content"> <!--Carousel goes here-->
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+				<div class="carousel slide" data-ride="carousel" id="mycarousel">
+						
+						<!-- Carousel indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#mycarousel" data-slide-to="1"></li>
+						<li data-target="#mycarousel" data-slide-to="2"></li>
+						<li data-target="#mycarousel" data-slide-to="3"></li>
+						<li data-target="#mycarousel" data-slide-to="4"></li>						
+					</ol>								
+					<!-- wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/01.jpg" alt="Uthappizza" class="img-responsive">
+						</div>
+						<div class="item">
+							<img src="img/02.jpg" alt="Weekend Grand Buffet" class="img-responsive">
+						</div>
+						<div class="item">
+							<img src="img/03.jpg" alt="Alberto Somayya" class="img-responsive">
+						</div>  
+						<div class="item">
+							<img src="img/04.jpg" alt="Alberto Somayya" class="img-responsive">
+						</div>
+						<div class="item">
+							<img src="img/05.jpg" alt="Alberto Somayya" class="img-responsive">
+						</div>   							                
+					</div>
+						
+						<!-- controls button -->
+					<a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+						
+						<!-- controls button -->
+					<div class="btn-group" id="carouselButtons">
+						<button class="btn btn-danger btn-xs" id="carousel-pause">
+							<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+						</button>
+						<button class="btn btn-danger btn-xs" id="carousel-play">
+							<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+						</button>
+					</div>       	
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- end of  the container-->
+
+	<footer  class="row-footer"> 
+		<div class="container">
+			<div class="rows">             
+
+				<div class="col-xs-12 col-sm-6" style="padding-left:400px" >
+					<i class="fa fa-phone"></i>: <span style="font-size:12px">(646)6788444</span><br>
+					<i class="fa fa-envelope"></i>: <a href="mailto:confusion@food.net" style="font-size:12px">dejunqi2008@gmail.com</a>
+				</div>
+				<div class="col-xs-12 col-sm-6">	
+					<div class="nav nav-bar-nav" >
+						<a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+						<a  class="btn btn-social-icon btn-facebook"  href="#"><i class="fa fa-facebook"></i></a>
+						<a class="btn btn-social-icon btn-linkedin"  href="#"><i class="fa fa-linkedin"></i></a>
+
+						<a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<p style="padding:10px;"></p>
+					<p align="center">© Copyright 2015 Dejun Qi</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#mycarousel").carousel( { interval: 10000 } );
+				$("#carousel-pause").click(function(){
+					$("#mycarousel").carousel('pause');
+				});
+
+				$("#carousel-play").click(function(){
+					$("#mycarousel").carousel('cycle');
+				});
+			});
+		</script>
 </body>
 </html>
-
-
