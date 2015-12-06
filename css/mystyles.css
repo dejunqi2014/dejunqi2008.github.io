@@ -94,3 +94,9 @@ background: #000;
 	position: absolute;
 	bottom:0;
 }
+
+
+.myAudio {
+	position: absolute;
+	right: 0;
+}
