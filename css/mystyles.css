@@ -62,10 +62,11 @@ background: #000;
 }
 
 .tab-content {
-	border-left: 1px solid #ddd;
+/*	border: 1px solid #000;*/
+/*	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	padding: 10px;
+	border-bottom: 1px solid #ddd;*/
+	padding-top: 10px;
 }
 
 .affix {
