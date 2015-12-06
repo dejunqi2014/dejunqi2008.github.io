@@ -7,7 +7,7 @@
 	margin: 0 auto;
 	padding: 50px 0 50px 0;
 	border-bottom: 1px ridge;
-	min-height: 300px;
+	min-height: 250px;
 }
 
 .row-footer {
@@ -64,10 +64,8 @@ background: #000;
 
 .tab-content {
 /*	border: 1px solid #000;*/
-/*	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;*/
 	padding-top: 10px;
+	min-height: 200px
 }
 
 .affix {
@@ -78,9 +76,9 @@ background: #000;
 	background: #413f3b;
 }
 
-.carousel .item {
+/*.carousel .item {
 	height: 400px;
-}
+}*/
 
 .item img {
 	position: absolute;
@@ -89,10 +87,10 @@ background: #000;
 	min-height: 400px;
 }
 
-#carouselButtons {
+/*#carouselButtons {
 	right: 0;
 	position: absolute;
 	bottom:0;
 }
-
+*/
 
