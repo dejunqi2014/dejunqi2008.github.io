@@ -24,7 +24,9 @@ function loadLeetCode() {
 							 'LeetCode15-Three Sum',
 							 'LeetCode14-Longest Common Prefix',
 							 'LeetCode11-Container with Most Water',
-							 'LeetCode1-Two Sum' ];
+							 'LeetCode1-Two Sum' 
+							 ];
+							 
 	var target = document.getElementById("solutionPDF");
 	for(var i = 0; i<nums.length; i++) {
 		var node = document.createElement('li');
