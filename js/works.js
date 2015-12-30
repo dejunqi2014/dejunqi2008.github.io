@@ -24,7 +24,7 @@ function loadLeetCode() {
 							 'LeetCode15-Three Sum',
 							 'LeetCode14-Longest Common Prefix',
 							 'LeetCode11-Container with Most Water',
-							 'LeetCode5-Longest Palindromic Substring',
+							 'LeetCode05-Longest Palindromic Substring',
 							 'LeetCode08-String to Integer',
 							 'LeetCode09-Palindrome Number',
 							 'LeetCode1-Two Sum' 
