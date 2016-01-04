@@ -6,7 +6,7 @@ window.onload = function() {
 function loadLeetCode() {
 
 	var nums = [		'LeetCode127-Word Ladder', 
-							'LeetCode125-Valid Palindrome'
+							'LeetCode125-Valid Palindrome',
 							'LeetCode98-Merge Sorted Array', 
 							'LeetCode73-Set Matrix Zeroes', 
 							'LeetCode70-Climbing Stairs', 
