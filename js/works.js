@@ -5,14 +5,16 @@ window.onload = function() {
 
 function loadLeetCode() {
 
-	var nums = [	'LeetCode127-Word Ladder', 
+	var nums = [		'LeetCode127-Word Ladder', 
+							'LeetCode125-Valid Palindrome'
 							'LeetCode98-Merge Sorted Array', 
 							'LeetCode73-Set Matrix Zeroes', 
 							'LeetCode70-Climbing Stairs', 
 							'LeetCode69-Sqrt(x)', 
 							'LeetCode50-Pow(x,n)', 
-							'LeetCode28-Implement strStr()', 
+							'LeetCode29-Divide Two Integers', 
 							'LeetCode28-Implement strStr()',
+							'LeetCode27-Remove Element',
 							 'LeetCode26-RemoveDuplicateFromSortedArray',
 							 'LeetCode24-Swap Node in Pairs',
 							 'LeetCode22-Generate Parentheses',
