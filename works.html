@@ -50,6 +50,135 @@
               
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTrading">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#trading" aria-expanded="true" aria-controls="alberto">
+									Human activity recognition with smartphone
+                  <small> Machine Learning project</small></a>
+                </h3>
+              </div>                        
+
+              <div role="tabpanel" class="panel-collapse collapse" id="trading" aria-labelledby="headingheadingTrading">
+                <div class="panel-body">
+                  <ul>
+                    <li>
+                      This project studies the human postures recognition suing data recorded by smartphone.  
+                    </li>
+                    <li>
+                      12 posures have been classified using advanced machine learning algorithm including. including 
+                      support vector machine (SVM), artifcal neural network, and random forest. The lowest error rate of classification using the ensamble learning approach reaches 1%.
+                    </li>
+                  </ul>
+                  <p>
+                    Our data set is obtained from UCI Machine Learning Repository,Smartphone-Based recognition of human activities and postural transitions data set, including 561 number of attributes and 10929 instances. There are six standard postures and six transition postures: 
+                    <ul>
+                      <li>1. sit, 2. stand, 3. lie, 4. walk (horizoanally), 5. walk (upstairs), 6. walk (downstairs)</li>
+                      <li>7. sit to stand, 8. stand to sit, 9. sit to lie, 10. lie to sit, 11. stand to lie, 12. lie to stand</li>
+                    </ul>
+                    <div align="center"><img src="img/har.png" width="60%"></div>               
+                  </p>
+                  <p>
+                    In this project, we applied support vector machine, neural network, and random forest, on the HAR data set to
+                    classify human postural and transition movements. We investigated the performance of each of the three
+                    algorithms and compare their results. We also studied how PCA affect the quality of classification for each
+                    algorithm. We discovered that for this data set, PCA is not helping the performance of SVM and neural
+                    network, and significantly decreases the performance of random forest. According to our results, the best
+                    classification was given by support vector machine with polynomial kernel of degree of two. The accuracy for
+                    each label can reach 92%, though transition postures are difficult to be recognized due to lacking of sample in
+                    the data set. As can be seen from the accuracy table below
+                  </p>
+                  <div align="center"><img src="img/accuracy.png" width="60%"></div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOnlinestore">
+                <h3 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#onlinestore" aria-expanded="true" aria-controls="agumbe">Online shopping bookstore web app <small>My first real course project</small></a>
+                </h3>
+              </div>                        
+
+              <div role="tabpanel" class="panel-collapse collapse" id="onlinestore" aria-labelledby="headingOnlinestore">
+                <div class="panel-body">
+                This is the first real project I have designed and implemently independently using  C# and the .NET framework, 
+                the database managment system is MS Access. When I was starting the project, I was still a rookie in web development.
+                The UI fron-end is very doll and may be ugly. Also, the user exerience is not very good, kind  of uncomfotable to use, but
+                I was still quite happy with that, just because it is my first independent project. <a href="https://github.com/dejunqi2008/ECT410-final.git">Source code</a><P></P>
+                <p>starting from the database design as follow:</p>
+                <img src="works/onlineStore/database.png"  width="100%">    
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <a href="works/onlineStore/01.png">
+                      <img class="media-object img-thumbnail" src="works/onlineStore/01.png"  width="400" alt="Profile">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h2 class="media-heading">Home page</h2>
+                      the Home page display all items (books) that are available for sell.
+                  </div>
+                </div> <!-- end of  the media -->
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <a href="works/onlineStore/02.png">
+                      <img class="media-object img-thumbnail" src="works/onlineStore/02.png"  width="400" alt="Profile">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h2 class="media-heading">User registration</h2>
+                      The registration page required user to enter their personal information, shipping address and billing address.
+                  </div>
+                </div> <!-- end of  the media -->
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <a href="works/onlineStore/03.png">
+                      <img class="media-object img-thumbnail" src="works/onlineStore/03.png"  width="400" alt="Profile">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h2 class="media-heading">Product list</h2>
+                      This page lists all the items that are available for user to select and purchase. 
+                      Every row contains a detail link that leads the user to the product detail page.
+                  </div>
+                </div> <!-- end of  the media -->                               
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <a href="works/onlineStore/04.png">
+                      <img class="media-object img-thumbnail" src="works/onlineStore/04.png" width="400" alt="Profile">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h2 class="media-heading">Product detail</h2>
+                      This page shows the detail description of the product that was selected. When the user login to their account, they are allowed
+                      to select quantity they want to purchase and add it to their shopping cart.
+                  </div>
+                </div> <!-- end of  the media -->
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <a href="works/onlineStore/05.png">
+                      <img class="media-object img-thumbnail" src="works/onlineStore/05.png" width="400" alt="Profile">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h2 class="media-heading">Shopping cart</h2>
+                      Once the user click on their shopping cart page, thet system will load their selected while unpaid items from the database.
+                      They will see what they have in the cart and how much they have to pay for. Beside, they can remove the items from the cart if
+                      thet want to. <br/> There is a check out button on the top left conner that leads them to the payment page.
+                  </div>
+                </div> <!-- end of  the media -->
+
+                </div>
+              </div>
+            </div>             
+
             <div class="panel panel-default">                       
               <div class="panel-heading" role="tab" id="headingGame">
                 <h3 class="panel-title">
@@ -58,37 +187,11 @@
               </div>
               <div role="tabpanel" class="panel-collapse collapse" id="game" aria-labelledby="headingGame">
                 <div class="panel-body">
-                	<a href="https://github.com/dejunqi2008/restaurantWeb">Source code</a><br>
-   								AngularJS Single-page application (SPA) is used to render different routes with HTML templates and accomplish form
-   								validation, avoiding reloading page at any point in the process; Bootstrap framework was used for font end design.
+                  <a href="https://github.com/dejunqi2008/restaurantWeb">Source code</a><br>
+                  AngularJS Single-page application (SPA) is used to render different routes with HTML templates and accomplish form validation, avoiding reloading page at any point in the process; Bootstrap framework was used for font end design.
                 </div>
               </div>
             </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTrading">
-                <h3 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#trading" aria-expanded="true" aria-controls="alberto">
-									Human activity recognition with smartphone
-                  <small> Significant course project of CSC529 (Advanced Data Mining)</small></a>
-                </h3>
-              </div>                        
-
-              <div role="tabpanel" class="panel-collapse collapse" id="trading" aria-labelledby="headingheadingTrading">
-                <div class="panel-body">
-                <ul>
-                  <li>
-                    This project studies the human postures recognition suing data recorded by smartphone.  
-                  </li>
-                  <li>
-                    12 posures have been classified using advanced machine learning algorithm including. including 
-                    support vector machine (SVM), artifcal neural network, and random forest. The lowest error rate of classification using the ensamble learning approach reaches 1%.
-                  </li>
-                </ul>
-                  
-                </div>
-              </div>
-            </div>   
 
 
             <div class="panel panel-default">
@@ -133,98 +236,17 @@
           					</li>
 
           				</ul>
-                  </div>
                 </div>
+              </div>
             </div>                 
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingOnlinestore">
-                        <h3 class="panel-title">
-                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#onlinestore" aria-expanded="true" aria-controls="agumbe">Online shopping bookstore web app <small>My first real course project</small></a>
-                        </h3>
-                      </div>                        
 
-                        <div role="tabpanel" class="panel-collapse collapse" id="onlinestore" aria-labelledby="headingOnlinestore">
-                            <div class="panel-body">
-								This is the first real project I have designed and implemently independently using  C# and the .NET framework, 
-								the database managment system is MS Access. When I was starting the project, I was still a rookie in web development.
-								The UI fron-end is very doll and may be ugly. Also, the user exerience is not very good, kind  of uncomfotable to use, but
-								I was still quite happy with that, just because it is my first independent project. <a href="https://github.com/dejunqi2008/ECT410-final.git">Source code</a><P></P>
-								<p>starting from the database design as follow:</p>
-								<img src="works/onlineStore/database.png"  width="100%">		
-								<div class="media">
-									<div class="media-left media-middle">
-										<a href="works/onlineStore/01.png">
-											<img class="media-object img-thumbnail" src="works/onlineStore/01.png"  width="400" alt="Profile">
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="media-heading">Home page</h2>
-											the Home page display all items (books) that are available for sell.
-									</div>
-								</div> <!-- end of  the media -->
 
-								<div class="media">
-									<div class="media-left media-middle">
-										<a href="works/onlineStore/02.png">
-											<img class="media-object img-thumbnail" src="works/onlineStore/02.png"  width="400" alt="Profile">
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="media-heading">User registration</h2>
-											The registration page required user to enter their personal information, shipping address and billing address.
-									</div>
-								</div> <!-- end of  the media -->
+          </div>
 
-								<div class="media">
-									<div class="media-left media-middle">
-										<a href="works/onlineStore/03.png">
-											<img class="media-object img-thumbnail" src="works/onlineStore/03.png"  width="400" alt="Profile">
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="media-heading">Product list</h2>
-											This page lists all the items that are available for user to select and purchase. 
-											Every row contains a detail link that leads the user to the product detail page.
-									</div>
-								</div> <!-- end of  the media -->																
-
-								<div class="media">
-									<div class="media-left media-middle">
-										<a href="works/onlineStore/04.png">
-											<img class="media-object img-thumbnail" src="works/onlineStore/04.png" width="400" alt="Profile">
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="media-heading">Product detail</h2>
-											This page shows the detail description of the product that was selected. When the user login to their account, they are allowed
-											to select quantity they want to purchase and add it to their shopping cart.
-									</div>
-								</div> <!-- end of  the media -->
-
-								<div class="media">
-									<div class="media-left media-middle">
-										<a href="works/onlineStore/05.png">
-											<img class="media-object img-thumbnail" src="works/onlineStore/05.png" width="400" alt="Profile">
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="media-heading">Shopping cart</h2>
-											Once the user click on their shopping cart page, thet system will load their selected while unpaid items from the database.
-											They will see what they have in the cart and how much they have to pay for. Beside, they can remove the items from the cart if
-											thet want to. <br/> There is a check out button on the top left conner that leads them to the payment page.
-									</div>
-								</div> <!-- end of  the media -->
-
-                            </div>
-                        </div>
-                    </div>
-
-                  </div>
-
-              </div>
-               <div>
-                  <p style="padding:20px;"></p>
-              </div>
+          </div>
+          <div>
+            <p style="padding:20px;"></p>
+          </div>
        </div>
 
 
