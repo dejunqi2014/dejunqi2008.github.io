@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
+<title>Sokaban</title>
 <link rel="stylesheet" type="text/css" href="Sokoban.css">
 </head>
 <body>
@@ -20,7 +20,7 @@ $(function(){
 
 var Game = {
 	
-	gk : [   //关卡的数据
+	gk : [   // Level
 		{
 			map : [
 				1,1,2,2,2,2,1,1,
@@ -28,7 +28,7 @@ var Game = {
 				1,2,2,0,3,2,2,1,
 				1,2,0,0,0,3,2,1,
 				2,2,0,0,0,0,2,2,
-				2,0,0,2,0,0,0,2,
+				2,0,0,0,0,0,0,2,
 				2,0,0,0,0,0,0,2,
 				2,2,2,2,2,2,2,2
 			],
@@ -69,18 +69,18 @@ var Game = {
 		}
 	],
 	
-	init : function(oParent){  //初始化
+	init : function(oParent){  // Initialized the whole picture
 	
 		this.oParent = oParent;
 		
 		this.createMap(0);
 	
 	},
-	createMap : function(iNow){  //创建地图
+	createMap : function(iNow){  // Create the map
 	
 		this.oParent.empty();
 		
-		document.title = '第'+(iNow+1)+'关';
+		document.title = 'Level '+(iNow+1);
 	
 		this.nowJson = this.gk[iNow];
 		
@@ -97,7 +97,7 @@ var Game = {
 		this.createPerson();
 	
 	},
-	createBox : function(){  //创建箱子
+	createBox : function(){  // Create boxes
 		
 		$.each(this.nowJson.box,$.proxy(function(i,elem){
 			
@@ -109,7 +109,7 @@ var Game = {
 		},this));
 		
 	},
-	createPerson : function(){  //创建人物
+	createPerson : function(){  // Create the "turtle"
 		
 		var oPerson = $('<div class="person"></div>');
 		oPerson.css('left',this.nowJson.person.x*50);
@@ -123,7 +123,7 @@ var Game = {
 		this.bindPerson(oPerson);
 		
 	},
-	bindPerson : function(oPerson){  //操作人物
+	bindPerson : function(oPerson){  // Operation
 	
 		$(document).keydown($.proxy(function(ev){
 			
@@ -212,7 +212,7 @@ var Game = {
 		this.nextShow();
 		
 	},
-	nextShow : function(){  //下一关
+	nextShow : function(){  // Just to the next level
 		
 		var iNum = 0;
 		
@@ -233,7 +233,7 @@ var Game = {
 		}
 		
 	},
-	pz : function(obj1,obj2){  //碰撞检测
+	pz : function(obj1,obj2){  // Collision test
 		var L1 = obj1.offset().left;
 		var R1 = obj1.offset().left + obj1.width();
 		var T1 = obj1.offset().top;
