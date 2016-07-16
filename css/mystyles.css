@@ -81,9 +81,7 @@ background: #000;
 	background: #413f3b;
 }
 
-/*.carousel .item {
-	height: 400px;
-}*/
+
 
 .item img {
 	position: absolute;
@@ -92,10 +90,11 @@ background: #000;
 	min-height: 400px;
 }
 
-/*#carouselButtons {
-	right: 0;
-	position: absolute;
-	bottom:0;
-}
-*/
 
+.well {
+	margin-top: 50px;
+}
+
+ul {
+	line-height: 25px;
+}
