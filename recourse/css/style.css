@@ -137,11 +137,10 @@ header {
 }
 
 .hero-text-box {
-    position: absolute;
-    width: 100％;
-    top: 30%;
-    left: 3%;
-    /*transform: translate(-50%, -50%);*/
+    /*position: absolute;*/
+    /*width: 60px;*/
+    /*top: 26%;*/
+    /*background-color: yellow;*/
 }
 
 /*--------------------------------*/
