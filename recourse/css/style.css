@@ -84,7 +84,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background-header.jpg);
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 50vh;
     background-attachment: fixed;
 }
 
@@ -195,15 +195,18 @@ h2:after {
 }
 
 .resume-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
-
-
-
-
-
+.resume-box {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 2px 2px #efefef;
+    border-bottom: 1px solid #e8e8e8;
+}
 
 
 
