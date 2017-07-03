@@ -1,8 +1,5 @@
 this is a test
 I am practice ho to contribute to a project using fork
 and pull request
-<<<<<<< HEAD
-
+JUst try the third time
 now I add another line and try again
-=======
->>>>>>> e0be6f12410a6b779ea5294b3539fb6cdb50cd56
